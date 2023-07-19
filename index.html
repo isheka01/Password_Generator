@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id="heading">Password Generator</p>
+    <div class="top-container">
+        <p id="password"></p>
+        <div class="image">
+            <img src="img/copy.svg" alt="copy">
+        </div>
+    </div>
+    <div class="botton-container">
+        <p id="head">Character length</p>
+        <p id="size">0</p>
+        <input id="range" class="range" type="range" min="0" max="10" value="0">
+
+        <form action="">
+            <label for="upper"><input type="checkbox" id="upper" class="checkbox">Include Uppercase Letters</label>
+            <label for="lower"><input type="checkbox" id="lower" class="checkbox">Include Lowercase Letters</label>
+            <label for="num"><input type="checkbox" id="num" class="checkbox">Include Numbers</label>
+            <label for="symbol"><input type="checkbox" id="symbol" class="checkbox">Include Symbols</label>
+        </form>
+        <div class="strength">
+            <p>STRENGTH</p>
+            <div>
+
+                <div id="box1" class="strength-bar"></div>
+                <div id="box2" class="strength-bar"></div>
+                <div id="box3" class="strength-bar"></div>
+                <div id="box4" class="strength-bar"></div>
+            </div>
+        </div>
+        <button onclick="generatePassword()">GENERATE <img src="img/arrow.svg" alt="arrow"></button>
+        <script src="script.js"></script>
+        <script src="scriptt.js"></script>
+    </div>
+</body>
+</html>

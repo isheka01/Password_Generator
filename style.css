@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Monospaceland";
+    src: url("path/to/monospaceland.ttf") format("truetype");
+  }
+body{
+    background-color: black;
+    font-family: "Monospaceland", monospace;
+}
+#heading{
+    color: #7E7C89;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top:13% ;
+}
+.top-container{
+    position: absolute;
+    display: inline-block;
+    background-color: #24232B;
+    margin-top: 1%;
+    left: 36%;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 400px;
+    height: 70px;
+}
+.image{
+    position: absolute;
+    right: 12px;
+    top: 28px;
+    
+}
+.image img{
+    height:30px;
+}
+.top-container p{
+    color: #53525A;
+    display: inline;
+    font-size: 43px;
+}
+.botton-container{
+    position: absolute;
+    top:50%;
+    left: 36%;
+    padding: 5px;
+    background-color: #24232B;
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+.botton-container button{
+    position: absolute;
+    bottom:5%;
+    font-size: 25px;
+    background-color: #A4FFAF;
+    width: 380px;
+    height: 60px;
+    left: 15px;
+}
+.botton-container img{
+    height: 17px;
+    margin-left: 4px;
+}
+#head{
+    display:inline-block;
+    font-size: 18px;
+    /* margin-top: 10px; */
+}
+#size{
+    display: inline-block;
+    position: inherit;
+    right:10px;
+    font-size: 30px;
+    margin-top: 13px;
+    color: #A4FFAF;
+}
+.range{
+    display: block;
+    padding: 5px;
+    width: 370px;
+    height: 0px;
+    outline: none;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 8px;
+    background-color: #18171F;
+}
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #EDECF4;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.botton-container form label{
+    display: block;
+    font-size: 20px;
+    /* margin-left: 10px; */
+}
+input[type=checkbox]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    outline: 2px solid white;
+    margin-right: 20px;
+}
+input[type=checkbox]:checked{
+    background-color: #A4FFAF;
+}
+.strength{
+    background-color: #18171F;
+    color: #82808E;
+    padding: 7px 3px 7px 13px;
+    margin-top: 19px;
+    margin-bottom: 2px;
+    height: 60px;
+    width:380px
+}
+.strength p{
+    display: inline-block;
+    font-size: 17px;
+}
+.strength-bar{
+    position: relative;
+    left:320px;
+    bottom: 40px;
+    display: inline-block;
+    border: 2px solid white;
+    height: 30px;
+    width: 5px;
+}
